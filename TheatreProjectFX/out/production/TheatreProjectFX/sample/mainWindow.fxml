@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane id="mainWindow" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0" stylesheets="@windowStyle.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button id="button1" fx:id="button1" layoutX="16.0" layoutY="83.0" mnemonicParsing="false" onAction="#handleMouseClicked1" onMouseEntered="#handleMouseEntered" onMouseExited="#handleMouseExit" prefHeight="133.0" prefWidth="132.0" scaleX="0.7" scaleY="0.7" stylesheets="@buttonStyle.css" />
+      <Button id="button2" fx:id="button2" layoutX="216.0" layoutY="83.0" mnemonicParsing="false" onAction="#handleMouseClicked2" onMouseEntered="#handleMouseEntered" onMouseExited="#handleMouseExit" prefHeight="133.0" prefWidth="132.0" scaleX="0.7" scaleY="0.7" stylesheets="@buttonStyle.css" />
+      <Button id="button3" fx:id="button3" layoutX="415.0" layoutY="83.0" mnemonicParsing="false" onAction="#handleMouseClicked3" onMouseEntered="#handleMouseEntered" onMouseExited="#handleMouseExit" prefHeight="133.0" prefWidth="132.0" scaleX="0.7" scaleY="0.7" stylesheets="@buttonStyle.css" />
+      <Button id="button4" fx:id="button4" layoutX="618.0" layoutY="84.0" mnemonicParsing="false" onAction="#handleMouseClicked4" onMouseEntered="#handleMouseEntered" onMouseExited="#handleMouseExit" prefHeight="133.0" prefWidth="132.0" scaleX="0.7" scaleY="0.7" stylesheets="@buttonStyle.css" />
+
+
+      <Label layoutX="74.0" layoutY="53.0" prefHeight="36.0" prefWidth="753.0" text="Welcome To The Limitless Cinema! Please pick a movie: " textFill="WHITE">
+         <font>
+            <Font name="Yu Gothic Light" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

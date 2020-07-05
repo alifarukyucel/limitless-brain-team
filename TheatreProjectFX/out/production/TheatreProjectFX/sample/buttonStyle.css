@@ -1,0 +1,15 @@
+#button1 {
+    -fx-graphic: url('https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg?1593675792805');
+}
+
+#button2 {
+    -fx-graphic: url('https://upload.wikimedia.org/wikipedia/en/f/fc/Fight_Club_poster.jpg');
+}
+
+#button3 {
+    -fx-graphic: url('https://upload.wikimedia.org/wikipedia/en/2/2e/Inception_%282010%29_theatrical_poster.jpg')
+}
+
+#button4 {
+    -fx-graphic: url('https://upload.wikimedia.org/wikipedia/en/7/74/Ready_Player_One_%28film%29.png')
+}
